@@ -1,0 +1,18 @@
+def reverse(text):
+  result = ""
+  for i in text:
+    result = i+result
+  return result
+  
+"""
+example
+text ="python"
+  
+result = "p" + ""
+result = "y" + "p"
+result = "t" + "yp"
+result = "h" + "typ"
+result = "o" + "htyp"
+result = "n" + "ohtyp"
+result = "nohtyp"
+"""
